@@ -1,0 +1,27 @@
+package selfProgramming;
+//write a java program to print the sum, multiply, subtract, divide,
+ //  and remainder of two numbers
+   
+import java.util.Scanner;
+public class operation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner obj = new Scanner (System.in);
+		
+		System.out.print("Please input first number:");
+		int num1 = obj.nextInt();
+		System.out.print("Please input second number:");
+		int num2 = obj.nextInt();
+		
+		
+		System.out.println(num1 + "+" + num2 + "="+ (num1+num2));
+		System.out.println(num1 + "-" + num2 + "="+ (num1-num2));
+		System.out.println(num1 + "*" + num2 + "="+ (num1*num2));
+		System.out.println(num1 + "/" + num2 + "="+ (num1/num2));
+		System.out.println(num1 + "%" + num2 + "="+ (num1%num2));
+		
+
+	}
+
+}
